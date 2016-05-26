@@ -1,0 +1,2833 @@
+2016-05-24 14:52:33 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 14:52:33 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50779'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php?r=site%2Findex'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464101553.4511
+    'REQUEST_TIME' => 1464101553
+]
+2016-05-24 14:59:36 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 14:59:36 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51020'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464101976.6033
+    'REQUEST_TIME' => 1464101976
+]
+2016-05-24 15:01:37 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:01:37 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51117'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102097.9762
+    'REQUEST_TIME' => 1464102097
+]
+2016-05-24 15:02:59 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:02:59 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51132'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102179.1422
+    'REQUEST_TIME' => 1464102179
+]
+2016-05-24 15:03:55 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:03:55 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51132'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102235.2211
+    'REQUEST_TIME' => 1464102235
+]
+2016-05-24 15:03:56 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:03:56 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51132'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102236.1159
+    'REQUEST_TIME' => 1464102236
+]
+2016-05-24 15:03:59 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:03:59 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51132'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102239.3736
+    'REQUEST_TIME' => 1464102239
+]
+2016-05-24 15:04:00 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:04:00 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51132'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php?r=Index%2Findex'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102240.3725
+    'REQUEST_TIME' => 1464102240
+]
+2016-05-24 15:04:26 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:04:26 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51132'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php?r=Index%2Findex'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102266.3562
+    'REQUEST_TIME' => 1464102266
+]
+2016-05-24 15:04:43 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:04:43 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51132'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php?r=Index%2Findex'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102283.2181
+    'REQUEST_TIME' => 1464102283
+]
+2016-05-24 15:04:44 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:04:44 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51132'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php?r=Index%2Findex'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102284.0348
+    'REQUEST_TIME' => 1464102284
+]
+2016-05-24 15:06:11 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:06:11 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php?r=Index%2Findex'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102371.7971
+    'REQUEST_TIME' => 1464102371
+]
+2016-05-24 15:06:17 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:06:17 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102377.8268
+    'REQUEST_TIME' => 1464102377
+]
+2016-05-24 15:06:20 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:06:20 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102380.747
+    'REQUEST_TIME' => 1464102380
+]
+2016-05-24 15:06:29 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/Index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/Index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:06:29 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/Index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index/Index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index/Index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102389.2676
+    'REQUEST_TIME' => 1464102389
+]
+2016-05-24 15:06:31 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/Index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/Index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:06:31 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/Index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index/Index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index/Index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102391.7521
+    'REQUEST_TIME' => 1464102391
+]
+2016-05-24 15:07:16 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/Index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/Index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:07:16 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/Index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index/Index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index/Index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102436.0927
+    'REQUEST_TIME' => 1464102436
+]
+2016-05-24 15:07:25 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:07:25 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php?r=Index/Index'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102445.1219
+    'REQUEST_TIME' => 1464102445
+]
+2016-05-24 15:07:26 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:07:26 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102446.2088
+    'REQUEST_TIME' => 1464102446
+]
+2016-05-24 15:07:26 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:07:26 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102446.6388
+    'REQUEST_TIME' => 1464102446
+]
+2016-05-24 15:07:40 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:07:40 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102460.4527
+    'REQUEST_TIME' => 1464102460
+]
+2016-05-24 15:08:15 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Site/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Site/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:08:15 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Site/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Site%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Site%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102495.4517
+    'REQUEST_TIME' => 1464102495
+]
+2016-05-24 15:08:28 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Site".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Site', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:08:28 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Site'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Site'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Site'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102508.0059
+    'REQUEST_TIME' => 1464102508
+]
+2016-05-24 15:08:33 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Site/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Site/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:08:33 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Site/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Site/index'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Site/index'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102513.342
+    'REQUEST_TIME' => 1464102513
+]
+2016-05-24 15:09:06 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:09:06 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102546.9697
+    'REQUEST_TIME' => 1464102546
+]
+2016-05-24 15:09:26 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:09:26 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php?r=Index%2Findex'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102566.2911
+    'REQUEST_TIME' => 1464102566
+]
+2016-05-24 15:09:28 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "Index/index".' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('Index/index', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:09:28 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'Index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=Index%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=Index%2Findex'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102568.6068
+    'REQUEST_TIME' => 1464102568
+]
+2016-05-24 15:10:18 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/message' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('message', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/message', Array)
+#2 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:10:18 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'index/message'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index%2Fmessage'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index%2Fmessage'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php?r=index%2Findex'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102618.4828
+    'REQUEST_TIME' => 1464102618
+]
+2016-05-24 15:10:21 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/message' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('message', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/message', Array)
+#2 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 15:10:21 [127.0.0.1][-][ubabh3p9hsnb077bumck06dc24][info][application] $_GET = [
+    'r' => 'index/message'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubabh3p9hsnb077bumck06dc24'
+    '_csrf' => 'd74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index%2Fmessage'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index%2Fmessage'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51165'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php?r=index%2Findex'
+    'HTTP_COOKIE' => 'PHPSESSID=ubabh3p9hsnb077bumck06dc24; _csrf=d74cd1c1010d1738d3639e56856d6931d566b6bbbe931dc7a42ec7a2058de761a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22l0gGQhHxbXh_N8nkvzQk64RNHFD3a17-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464102621.0412
+    'REQUEST_TIME' => 1464102621
+]
+2016-05-25 01:49:31 [127.0.0.1][-][rlt7ilpbhpkcvl5eovu48jlpl6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/message' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('message', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/message', Array)
+#2 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-25 01:49:31 [127.0.0.1][-][rlt7ilpbhpkcvl5eovu48jlpl6][info][application] $_GET = [
+    'r' => 'index/message'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index%2Fmessage'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index%2Fmessage'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49395'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464140971.2885
+    'REQUEST_TIME' => 1464140971
+]
+2016-05-25 01:49:37 [127.0.0.1][-][rlt7ilpbhpkcvl5eovu48jlpl6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/message' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('message', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/message', Array)
+#2 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-25 01:49:37 [127.0.0.1][-][rlt7ilpbhpkcvl5eovu48jlpl6][info][application] $_GET = [
+    'r' => 'index/message'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index%2Fmessage'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index%2Fmessage'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49395'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464140977.4933
+    'REQUEST_TIME' => 1464140977
+]
+2016-05-25 06:21:29 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Tools' not found' in /usr/local/web/tools/frontend/controllers/IndexController.php:67
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-25 06:21:29 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54934'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157289.6028
+    'REQUEST_TIME' => 1464157289
+]
+2016-05-25 06:23:21 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Regex' not found' in /usr/local/web/tools/frontend/controllers/IndexController.php:82
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-25 06:23:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '1'
+    'parameter-url' => '11'
+    'parameter-name' => [
+        0 => ''
+    ]
+    'parameter-value' => [
+        0 => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '68'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54943'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'ejJ3UkNQLmUPQS83OwJtMwlhWiY5CFwOM2o8IzEEXzwlH0IAExpJKQ=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '68'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157401.3754
+    'REQUEST_TIME' => 1464157401
+]
+2016-05-25 06:23:23 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Regex' not found' in /usr/local/web/tools/frontend/controllers/IndexController.php:82
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-25 06:23:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '1'
+    'parameter-url' => '1122'
+    'parameter-name' => [
+        0 => ''
+    ]
+    'parameter-value' => [
+        0 => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '70'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54943'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'ejJ3UkNQLmUPQS83OwJtMwlhWiY5CFwOM2o8IzEEXzwlH0IAExpJKQ=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '70'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157403.2877
+    'REQUEST_TIME' => 1464157403
+]
+2016-05-25 06:23:23 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Regex' not found' in /usr/local/web/tools/frontend/controllers/IndexController.php:82
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-25 06:23:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '1'
+    'parameter-url' => '1122'
+    'parameter-name' => [
+        0 => ''
+    ]
+    'parameter-value' => [
+        0 => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '70'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54943'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'ejJ3UkNQLmUPQS83OwJtMwlhWiY5CFwOM2o8IzEEXzwlH0IAExpJKQ=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '70'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157403.4777
+    'REQUEST_TIME' => 1464157403
+]
+2016-05-25 06:23:23 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Regex' not found' in /usr/local/web/tools/frontend/controllers/IndexController.php:82
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-25 06:23:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '1'
+    'parameter-url' => '1122'
+    'parameter-name' => [
+        0 => ''
+    ]
+    'parameter-value' => [
+        0 => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '70'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54943'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'ejJ3UkNQLmUPQS83OwJtMwlhWiY5CFwOM2o8IzEEXzwlH0IAExpJKQ=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '70'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157403.6793
+    'REQUEST_TIME' => 1464157403
+]
+2016-05-25 06:23:26 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Regex' not found' in /usr/local/web/tools/frontend/controllers/IndexController.php:82
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-25 06:23:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '1'
+    'parameter-url' => '1122'
+    'parameter-name' => [
+        0 => ''
+    ]
+    'parameter-value' => [
+        0 => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '70'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54943'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'ejJ3UkNQLmUPQS83OwJtMwlhWiY5CFwOM2o8IzEEXzwlH0IAExpJKQ=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '70'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157406.7567
+    'REQUEST_TIME' => 1464157406
+]
+2016-05-25 06:24:01 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Regex' not found' in /usr/local/web/tools/frontend/controllers/IndexController.php:83
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-05-25 06:24:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '1'
+    'parameter-url' => ''
+    'parameter-name' => [
+        0 => ''
+    ]
+    'parameter-value' => [
+        0 => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '66'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54943'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'cm9pUFlkRHIHHDE1ITYHJAE8RCQjPDYZOzciISswNSstQlwCCS4jPg=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '66'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157441.7333
+    'REQUEST_TIME' => 1464157441
+]
+2016-05-25 06:29:25 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: parameter-name' in /usr/local/web/tools/frontend/controllers/IndexController.php:76
+Stack trace:
+#0 /usr/local/web/tools/frontend/controllers/IndexController.php(76): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/usr/local/web/...', 76, Array)
+#1 [internal function]: frontend\controllers\IndexController->actionInterface()
+#2 /usr/local/web/tools/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('interface', Array)
+#5 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/interface', Array)
+#6 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-05-25 06:29:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '1'
+    'parameter-url' => 'http://tools.com/index.php'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '55'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54980'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'cm9pUFlkRHIHHDE1ITYHJAE8RCQjPDYZOzciISswNSstQlwCCS4jPg=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '55'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157765.7974
+    'REQUEST_TIME' => 1464157765
+]
+2016-05-25 06:29:28 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: parameter-name' in /usr/local/web/tools/frontend/controllers/IndexController.php:76
+Stack trace:
+#0 /usr/local/web/tools/frontend/controllers/IndexController.php(76): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/usr/local/web/...', 76, Array)
+#1 [internal function]: frontend\controllers\IndexController->actionInterface()
+#2 /usr/local/web/tools/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('interface', Array)
+#5 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/interface', Array)
+#6 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-05-25 06:29:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '1'
+    'parameter-url' => 'http://tools.com/index.php'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '55'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54980'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'cm9pUFlkRHIHHDE1ITYHJAE8RCQjPDYZOzciISswNSstQlwCCS4jPg=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '55'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157767.9964
+    'REQUEST_TIME' => 1464157767
+]
+2016-05-25 06:29:37 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: parameter-name' in /usr/local/web/tools/frontend/controllers/IndexController.php:76
+Stack trace:
+#0 /usr/local/web/tools/frontend/controllers/IndexController.php(76): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/usr/local/web/...', 76, Array)
+#1 [internal function]: frontend\controllers\IndexController->actionInterface()
+#2 /usr/local/web/tools/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('interface', Array)
+#5 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/interface', Array)
+#6 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2016-05-25 06:29:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '2'
+    'parameter-url' => 'http://tools.com/index.php'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '55'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54980'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'cm9pUFlkRHIHHDE1ITYHJAE8RCQjPDYZOzciISswNSstQlwCCS4jPg=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '55'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157777.1124
+    'REQUEST_TIME' => 1464157777
+]
+2016-05-25 06:32:29 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead' in /usr/local/web/tools/frontend/controllers/IndexController.php:99
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'curl_setopt(): ...', '/usr/local/web/...', 99, Array)
+#1 /usr/local/web/tools/frontend/controllers/IndexController.php(99): curl_setopt(Resource id #81, 81, 1)
+#2 /usr/local/web/tools/frontend/controllers/IndexController.php(79): frontend\controllers\IndexController->http('http://tools.co...', 'POST')
+#3 [internal function]: frontend\controllers\IndexController->actionInterface()
+#4 /usr/local/web/tools/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('interface', Array)
+#7 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/interface', Array)
+#8 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-25 06:32:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '2'
+    'parameter-url' => 'http://tools.com/index.php'
+    'parameter-name' => [
+        0 => ''
+    ]
+    'parameter-value' => [
+        0 => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '100'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'cm9pUFlkRHIHHDE1ITYHJAE8RCQjPDYZOzciISswNSstQlwCCS4jPg=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '100'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157949.0547
+    'REQUEST_TIME' => 1464157949
+]
+2016-05-25 06:32:32 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead' in /usr/local/web/tools/frontend/controllers/IndexController.php:99
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'curl_setopt(): ...', '/usr/local/web/...', 99, Array)
+#1 /usr/local/web/tools/frontend/controllers/IndexController.php(99): curl_setopt(Resource id #81, 81, 1)
+#2 /usr/local/web/tools/frontend/controllers/IndexController.php(79): frontend\controllers\IndexController->http('http://tools.co...', 'POST')
+#3 [internal function]: frontend\controllers\IndexController->actionInterface()
+#4 /usr/local/web/tools/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('interface', Array)
+#7 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/interface', Array)
+#8 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2016-05-25 06:32:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '2'
+    'parameter-url' => 'http://tools.com/index.php'
+    'parameter-name' => [
+        0 => ''
+    ]
+    'parameter-value' => [
+        0 => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '100'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'cm9pUFlkRHIHHDE1ITYHJAE8RCQjPDYZOzciISswNSstQlwCCS4jPg=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '100'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157952.572
+    'REQUEST_TIME' => 1464157952
+]
+2016-05-25 06:33:00 [127.0.0.1][-][7q04e48h8c1r8cscij6l9887p2][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Controller.php:110
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('', Array)
+#2 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('', Array)
+#3 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#5 {main}
+2016-05-25 06:33:00 [127.0.0.1][-][7q04e48h8c1r8cscij6l9887p2][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55006'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157980.2454
+    'REQUEST_TIME' => 1464157980
+]
+2016-05-25 06:33:00 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\controllers\IndexController::debug' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /usr/local/web/tools/frontend/controllers/IndexController.php(123): yii\base\Component->__get('debug')
+#1 /usr/local/web/tools/frontend/controllers/IndexController.php(79): frontend\controllers\IndexController->http('http://tools.co...', 'POST')
+#2 [internal function]: frontend\controllers\IndexController->actionInterface()
+#3 /usr/local/web/tools/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('interface', Array)
+#6 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/interface', Array)
+#7 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#9 {main}
+2016-05-25 06:32:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '2'
+    'parameter-url' => 'http://tools.com/index.php'
+    'parameter-name' => [
+        0 => ''
+    ]
+    'parameter-value' => [
+        0 => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '100'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'cm9pUFlkRHIHHDE1ITYHJAE8RCQjPDYZOzciISswNSstQlwCCS4jPg=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '100'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464157978.7149
+    'REQUEST_TIME' => 1464157978
+]
+2016-05-25 06:33:37 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\controllers\IndexController::debug' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /usr/local/web/tools/frontend/controllers/IndexController.php(123): yii\base\Component->__get('debug')
+#1 /usr/local/web/tools/frontend/controllers/IndexController.php(79): frontend\controllers\IndexController->http('https://www.bai...', 'POST')
+#2 [internal function]: frontend\controllers\IndexController->actionInterface()
+#3 /usr/local/web/tools/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('interface', Array)
+#6 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/interface', Array)
+#7 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#9 {main}
+2016-05-25 06:33:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/interface'
+]
+
+$_POST = [
+    'type' => '2'
+    'parameter-url' => 'https://www.baidu.com/'
+    'parameter-name' => [
+        0 => ''
+    ]
+    'parameter-value' => [
+        0 => ''
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index/interface'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'CONTENT_LENGTH' => '96'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index/interface'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55001'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_CSRF_TOKEN' => 'cm9pUFlkRHIHHDE1ITYHJAE8RCQjPDYZOzciISswNSstQlwCCS4jPg=='
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://tools.com/index.php'
+    'HTTP_CONTENT_LENGTH' => '96'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464158016.9236
+    'REQUEST_TIME' => 1464158016
+]
+2016-05-25 15:03:11 [127.0.0.1][-][rlt7ilpbhpkcvl5eovu48jlpl6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/message' in /usr/local/web/tools/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('message', Array)
+#1 /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('index/message', Array)
+#2 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /usr/local/web/tools/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /usr/local/web/tools/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /usr/local/web/tools/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-25 15:03:11 [127.0.0.1][-][rlt7ilpbhpkcvl5eovu48jlpl6][info][application] $_GET = [
+    'r' => 'index/message'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rlt7ilpbhpkcvl5eovu48jlpl6'
+    '_csrf' => '662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'liupeilong'
+    'HOME' => '/Users/liupeilong'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/usr/local/web/tools/frontend/web//index.php'
+    'QUERY_STRING' => 'r=index%2Fmessage'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=index%2Fmessage'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/usr/local/web/tools/frontend/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63322'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'tools.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tools.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://tools.com/'
+    'HTTP_COOKIE' => 'PHPSESSID=rlt7ilpbhpkcvl5eovu48jlpl6; _csrf=662c73c903381456c1440d3d5c325b443d575db0d5c1a87440885bd10185c933a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22usXexRCVsS-tzXrkIXKqrTqY_-5RPJgL%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464188591.3318
+    'REQUEST_TIME' => 1464188591
+]
